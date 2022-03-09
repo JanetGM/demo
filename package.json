@@ -23,6 +23,11 @@
       "react-app/jest"
     ]
   },
+  "config":{
+    "comitizen":{
+      "path":"./node_modules/cz-convetional-changelog"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -36,6 +41,8 @@
     ]
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint-config-airbnb": "^19.0.4",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
@@ -46,5 +53,10 @@
       "prettier --write",
       "eslint --fix"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
