@@ -23,11 +23,6 @@
       "react-app/jest"
     ]
   },
-  "config":{
-    "comitizen":{
-      "path":"./node_modules/cz-convetional-changelog"
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",
